@@ -1,0 +1,43 @@
+:root {
+  color-scheme: dark;
+  font: 16px/1.6 system-ui, sans-serif;
+  color: #f5f1ff;
+  background: #12111b;
+}
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at top right, #31224e, transparent 38rem);
+}
+main {
+  max-width: 44rem;
+  margin: auto;
+  padding: clamp(1.5rem, 6vw, 4.5rem);
+}
+header, footer { padding-block: 1.2rem; }
+header { border-bottom: 1px solid #494057; }
+footer { margin-top: 2rem; border-top: 1px solid #494057; }
+.brand {
+  color: #c5b1ff;
+  font-size: .875rem;
+  font-weight: 720;
+  letter-spacing: .09em;
+}
+h1 {
+  margin: .2rem 0 .7rem;
+  font-size: clamp(2.25rem, 8vw, 4.5rem);
+  line-height: 1.03;
+  letter-spacing: -.055em;
+}
+h2 { margin: 1.6rem 0 .25rem; font-size: 1.25rem; }
+p { margin: 0 0 1rem; color: #ded5ee; }
+a { color: #d5c6ff; }
+a:focus-visible { outline: 2px solid #d5c6ff; outline-offset: 5px; }
+.button {
+  display: inline-block;
+  padding: .55rem .9rem;
+  border-radius: .55rem;
+  background: #c0adff;
+  color: #211945;
+  font-weight: 700;
+  text-decoration: none;
+}
